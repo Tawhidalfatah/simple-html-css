@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+.home-content {
+    position: absolute;
+    right: 30%;
+    top: 50%;
+    text-align: center;
+}
+
+.contact-content {
+    position: absolute;
+    right: 40%;
+    top: 30%;
+}
+
+.contact-content h1 {
+    text-align: center;
+}
+
+.information-content {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+}
+
+.information-content h1,
+p {
+    text-align: center;
+}
+
+.information-content h1 {
+    font-size: 32px;
+}
+
+.information-content p {
+    font-size: 18px;
+}
+
+.guide-content {
+    position: absolute;
+    right: 30%;
+    top: 40%;
+}
+
+.guide-content p {
+    font-size: 24px;
+}
+
+.guide-content ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.sidebar {
+    border: 1px solid black;
+    height: 100vh;
+    width: 300px;
+    background-color: antiquewhite;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+
+    list-style: none;
+    gap: 50px;
+
+    height: 100%;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
